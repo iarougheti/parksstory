@@ -1,0 +1,103 @@
+body{background: rgb(133,155,176);
+    background:linear-gradient(90deg, rgba(133,155,176,0.5) 0%, rgba(96,120,120,0.5) 50%, rgba(96,96,72,0.5) 100%);}
+h1{
+    font-size: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: #484830
+
+}
+.subhead{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #607860
+}
+
+h2{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold italic;
+    color: #607860
+}
+
+
+.body-text{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:#303030;
+}
+
+.thumbnail-text{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #484848;
+    
+}
+
+.center {
+    margin: auto;
+    margin-left: -50;
+    width: 80%;
+    border: 5px solid #303030;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0) 
+    }
+
+
+ .container {
+     position: relative;
+      text-align: center;
+      color: white;
+ }
+
+ .centered {
+    position: absolute;
+    top: 12%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: #484830
+  }
+  .centeredsub {
+
+    position: absolute;
+    top: 23%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #607860
+  }
+
+  .centeredbody{
+      
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color:#606060;
+}
+
+.centeredthumb{
+      
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #707070;
+}
